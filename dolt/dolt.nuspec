@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dolt</id>
+    <version>0.23.9</version>
+    <packageSourceUrl>https://github.com/zverev-iv/choco-dolt</packageSourceUrl>
+    <owners>zverev-iv</owners>
+    <title>dolt</title>
+    <authors>dolthub</authors>
+    <projectUrl>https://dolthub.com/</projectUrl>
+    <copyright>2021, dolthub</copyright>
+    <licenseUrl>https://github.com/dolthub/dolt/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/dolthub/dolt</projectSourceUrl>
+    <docsUrl>https://docs.dolthub.com</docsUrl>
+    <bugTrackerUrl>https://github.com/dolthub/dolt/issues</bugTrackerUrl>
+    <tags>dolt git database db version control</tags>
+    <summary>Version Controlled Database</summary>
+    <description>Dolt is the true Git for data experience in a SQL database, providing version control for schema and cell-wise for data, all optimized for collaboration.</description>
+    <releaseNotes>https://github.com/dolthub/dolt/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
