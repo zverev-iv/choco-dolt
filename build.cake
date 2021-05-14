@@ -4,9 +4,9 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 var target = Argument("target", "Publish");
-var packageVersion = Argument("packageVersion", "0.24.0");
+var packageVersion = Argument("packageVersion", "0.24.1");
 var url = Argument("url", String.Empty);
-var url64bit = Argument("url64bit", "https://github.com/dolthub/dolt/releases/download/v0.24.0/dolt-windows-amd64.zip");
+var url64bit = Argument("url64bit", "https://github.com/dolthub/dolt/releases/download/v0.24.1/dolt-windows-amd64.zip");
 var binDir = Argument("binDir", "bin");
 var tempDir = Argument("tempDir", "temp");
 
